@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import <WeiboSDK.h>
 
 @interface FirstViewController ()
 

@@ -15,6 +15,8 @@
 		019D14641B687FC000F8AE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019D14621B687FC000F8AE71 /* Main.storyboard */; };
 		019D14661B687FC000F8AE71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019D14651B687FC000F8AE71 /* Assets.xcassets */; };
 		019D14691B687FC000F8AE71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019D14671B687FC000F8AE71 /* LaunchScreen.storyboard */; };
+		01C90D1A1B6DBD0800FDB64A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C90D191B6DBD0800FDB64A /* Login.storyboard */; };
+		01C90D1E1B6DCA1E00FDB64A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C90D1D1B6DCA1E00FDB64A /* LoginViewController.m */; };
 		7FD7672995B9922C3BA606EC /* libPods-NewsLetter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1B337CF9EEDA28696E43CB /* libPods-NewsLetter.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,10 @@
 		019D14651B687FC000F8AE71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019D14681B687FC000F8AE71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019D146A1B687FC100F8AE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C90D191B6DBD0800FDB64A /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		01C90D1C1B6DCA1E00FDB64A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		01C90D1D1B6DCA1E00FDB64A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		01C90D1F1B6DCC4200FDB64A /* SinaConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SinaConfig.h; path = ../SinaConfig.h; sourceTree = "<group>"; };
 		1A1B337CF9EEDA28696E43CB /* libPods-NewsLetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsLetter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		977605813DD4F360CE899477 /* Pods-NewsLetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsLetter.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsLetter/Pods-NewsLetter.release.xcconfig"; sourceTree = "<group>"; };
 		C24684AA5808E835B4C471E1 /* Pods-NewsLetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsLetter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsLetter/Pods-NewsLetter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,13 +77,16 @@
 		019D14551B687FC000F8AE71 /* NewsLetter */ = {
 			isa = PBXGroup;
 			children = (
+				01C90D1F1B6DCC4200FDB64A /* SinaConfig.h */,
+				01C90D1B1B6DBD2900FDB64A /* Storyboard */,
 				019D14591B687FC000F8AE71 /* AppDelegate.h */,
 				019D145A1B687FC000F8AE71 /* AppDelegate.m */,
 				019D145C1B687FC000F8AE71 /* FirstViewController.h */,
 				019D145D1B687FC000F8AE71 /* FirstViewController.m */,
 				019D145F1B687FC000F8AE71 /* SecondViewController.h */,
 				019D14601B687FC000F8AE71 /* SecondViewController.m */,
-				019D14621B687FC000F8AE71 /* Main.storyboard */,
+				01C90D1C1B6DCA1E00FDB64A /* LoginViewController.h */,
+				01C90D1D1B6DCA1E00FDB64A /* LoginViewController.m */,
 				019D14651B687FC000F8AE71 /* Assets.xcassets */,
 				019D14671B687FC000F8AE71 /* LaunchScreen.storyboard */,
 				019D146A1B687FC100F8AE71 /* Info.plist */,
@@ -92,6 +101,15 @@
 				019D14571B687FC000F8AE71 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C90D1B1B6DBD2900FDB64A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				01C90D191B6DBD0800FDB64A /* Login.storyboard */,
+				019D14621B687FC000F8AE71 /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 		7C4C5FB455A2D64CB18A7E49 /* Frameworks */ = {
@@ -171,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C90D1A1B6DBD0800FDB64A /* Login.storyboard in Resources */,
 				019D14691B687FC000F8AE71 /* LaunchScreen.storyboard in Resources */,
 				019D14661B687FC000F8AE71 /* Assets.xcassets in Resources */,
 				019D14641B687FC000F8AE71 /* Main.storyboard in Resources */,
@@ -221,6 +240,7 @@
 				019D145B1B687FC000F8AE71 /* AppDelegate.m in Sources */,
 				019D145E1B687FC000F8AE71 /* FirstViewController.m in Sources */,
 				019D14581B687FC000F8AE71 /* main.m in Sources */,
+				01C90D1E1B6DCA1E00FDB64A /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
