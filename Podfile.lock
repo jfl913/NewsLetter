@@ -1,0 +1,22 @@
+PODS:
+  - SSKeychain (1.2.3)
+  - WeiboSDK (3.1.1)
+
+DEPENDENCIES:
+  - SSKeychain
+  - WeiboSDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk`)
+
+EXTERNAL SOURCES:
+  WeiboSDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk
+
+CHECKOUT OPTIONS:
+  WeiboSDK:
+    :commit: 314dfb77b306a2a9a93ce7575def5dbc0ae7995a
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk
+
+SPEC CHECKSUMS:
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  WeiboSDK: 5925fdb6199b44d504d62628a52186efa095a747
+
+COCOAPODS: 0.38.2
