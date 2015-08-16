@@ -121,11 +121,6 @@
             NSLog(@"refreshToken 写入失败: %@", refreshTokenError);
         }
         
-        //        NSError *expiresInError;
-        //        [SSKeychain setPassword:authorizeResponse.userInfo[@"expires_in"] forService:@"NewsLetter" account:@"expiresIn" error:&expiresInError];
-        //        if (expiresInError) {
-        //            NSLog(@"expiresIn 写入失败: %@", expiresInError);
-        //        }
         [[NSUserDefaults standardUserDefaults] setObject:authorizeResponse.expirationDate forKey:@"expiresIn"];
         [[NSUserDefaults standardUserDefaults] synchronize];
         
