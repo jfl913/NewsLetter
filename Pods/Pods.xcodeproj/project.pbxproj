@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1A57D547677825BAB0A5ECC659588C /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FF90CC6C771E38A010F3847C6549A0 /* SSKeychainQuery.h */; };
+		40C785DF235AABC38B07297194F05E3F /* Pods-NewsLetter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 528EE4B56E5F5399E701CAB11B32B205 /* Pods-NewsLetter-dummy.m */; };
+		462F21E42957D404339DE6CD6B2962CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D926D42C7792BB387E10B572EE720E9 /* Security.framework */; };
+		9A07D5E5FD35B5D5423BCCC8F505B3C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23E418010ED201101AE18E1B391B2C2 /* Foundation.framework */; };
+		BACE2EB19901EACB2B14094251D2777F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23E418010ED201101AE18E1B391B2C2 /* Foundation.framework */; };
+		C448ED2A47CCE08BC5116C230CAD58B9 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D5339C0A8023DA78A483A1DFEB5EF68B /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF85BB5F573E6066871F14A011F42E3B /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD360DC39ED57B904797540B29D333B /* SSKeychain-dummy.m */; };
+		D0C276BE14E97B62E2ED80D2326BA96A /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A8244AB0E0D8E13DB84AE8F420CB1945 /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DA9D665977EB83478870CACE93AA141C /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A573E3C50215EE6D076255EFEF0D93B /* SSKeychain.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681FCB7AAE1925755DC2C4822190D1D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3931D121EE165685E6E6C251F033C0;
+			remoteInfo = SSKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0472000B4F4B1A75ACB6B858B0002733 /* SSKeychain-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SSKeychain-Private.xcconfig"; sourceTree = "<group>"; };
+		094858B855A005F7FA30D4BF36C5EB67 /* Pods-NewsLetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsLetter.debug.xcconfig"; sourceTree = "<group>"; };
+		0D926D42C7792BB387E10B572EE720E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		1525A974AA0993ECCE3401C5A8857C53 /* libPods-NewsLetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsLetter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16594F9257E4A6AEED92BE4AE0F6DE35 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		39C1EBE140646ADEAB9F86E1135089E2 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		3A573E3C50215EE6D076255EFEF0D93B /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		3F4D16B39C6831D31207C2A423BDA62B /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		528EE4B56E5F5399E701CAB11B32B205 /* Pods-NewsLetter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewsLetter-dummy.m"; sourceTree = "<group>"; };
+		548E2BFFAA3CA8EFD32B621B0DF45AA0 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		55FF90CC6C771E38A010F3847C6549A0 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		5C31B485171F9126DFD54BE2651B7D8E /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		5D6A66DF8FBDE48C0571CF0E4F7F8B88 /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		64F317BF953F29782B08FDC0D73A6017 /* Pods-NewsLetter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewsLetter-resources.sh"; sourceTree = "<group>"; };
+		6BC6C5ECD161FECD427BC82157E9B1FA /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "libWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		829FEEF9A4AD0A5109A169FC62F15BBC /* Pods-NewsLetter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewsLetter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DE8F82CB13349FCF7C27E7229B1D3AF /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "libWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		8FD360DC39ED57B904797540B29D333B /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		A241B9CCA1507D0261F695B13B2E5305 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		A8244AB0E0D8E13DB84AE8F420CB1945 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		B4287BE050B2C817AD39521197FFB88C /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C20DD82E5C7D82B17680381F712E5A25 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = libWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		D4EEEF8C1D0A26D7CFBD6B6FA5621AD7 /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
+		D5339C0A8023DA78A483A1DFEB5EF68B /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		D8C9BE185CBCFAEDAC376FA61BD660AA /* Pods-NewsLetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewsLetter.release.xcconfig"; sourceTree = "<group>"; };
+		E4E704290C7C7574FC483CBF5927BEE3 /* libSSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7A57C6A31B7EAFCE10A1037D98BDE9 /* Pods-NewsLetter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewsLetter-acknowledgements.plist"; sourceTree = "<group>"; };
+		F23E418010ED201101AE18E1B391B2C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB0D2224FCEE2BB8AAC9C47F9A559452 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		FFF46642092E853EF67BCA488429A31D /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55EA7C5ED7233A2F318D5626C16BADDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACE2EB19901EACB2B14094251D2777F /* Foundation.framework in Frameworks */,
+				462F21E42957D404339DE6CD6B2962CC /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAED13B5365FED205095549615B067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A07D5E5FD35B5D5423BCCC8F505B3C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B283297CDF15BE648CCB4037373CD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E48B03D2536E7D72C7F23D8BEF646CEA /* SSKeychain */,
+				DD852E526ACF841784BF0383A28B8F31 /* WeiboSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7DC042EB208E60004AB32538B40FA79 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				25B283297CDF15BE648CCB4037373CD7 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				829B54D271D82C55869DA3116D6C3BC9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		829B54D271D82C55869DA3116D6C3BC9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1D5145E34457A454EEB56B02A97BFDD /* Pods-NewsLetter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9768BA9729F91BC4F58B281078F49B4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4287BE050B2C817AD39521197FFB88C /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7DC042EB208E60004AB32538B40FA79 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F23E418010ED201101AE18E1B391B2C2 /* Foundation.framework */,
+				0D926D42C7792BB387E10B572EE720E9 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B81B33748D9897AF0C275D33D84E7DB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4EEEF8C1D0A26D7CFBD6B6FA5621AD7 /* SSKeychain.xcconfig */,
+				0472000B4F4B1A75ACB6B858B0002733 /* SSKeychain-Private.xcconfig */,
+				8FD360DC39ED57B904797540B29D333B /* SSKeychain-dummy.m */,
+				5D6A66DF8FBDE48C0571CF0E4F7F8B88 /* SSKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1525A974AA0993ECCE3401C5A8857C53 /* libPods-NewsLetter.a */,
+				E4E704290C7C7574FC483CBF5927BEE3 /* libSSKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D5145E34457A454EEB56B02A97BFDD /* Pods-NewsLetter */ = {
+			isa = PBXGroup;
+			children = (
+				829FEEF9A4AD0A5109A169FC62F15BBC /* Pods-NewsLetter-acknowledgements.markdown */,
+				EA7A57C6A31B7EAFCE10A1037D98BDE9 /* Pods-NewsLetter-acknowledgements.plist */,
+				528EE4B56E5F5399E701CAB11B32B205 /* Pods-NewsLetter-dummy.m */,
+				64F317BF953F29782B08FDC0D73A6017 /* Pods-NewsLetter-resources.sh */,
+				094858B855A005F7FA30D4BF36C5EB67 /* Pods-NewsLetter.debug.xcconfig */,
+				D8C9BE185CBCFAEDAC376FA61BD660AA /* Pods-NewsLetter.release.xcconfig */,
+			);
+			name = "Pods-NewsLetter";
+			path = "Target Support Files/Pods-NewsLetter";
+			sourceTree = "<group>";
+		};
+		DABE75D16B141D030FEB232EA20854B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C31B485171F9126DFD54BE2651B7D8E /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD852E526ACF841784BF0383A28B8F31 /* WeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3F4D16B39C6831D31207C2A423BDA62B /* WBHttpRequest.h */,
+				8DE8F82CB13349FCF7C27E7229B1D3AF /* WBHttpRequest+WeiboGame.h */,
+				548E2BFFAA3CA8EFD32B621B0DF45AA0 /* WBHttpRequest+WeiboShare.h */,
+				A241B9CCA1507D0261F695B13B2E5305 /* WBHttpRequest+WeiboToken.h */,
+				6BC6C5ECD161FECD427BC82157E9B1FA /* WBHttpRequest+WeiboUser.h */,
+				16594F9257E4A6AEED92BE4AE0F6DE35 /* WBSDKBasicButton.h */,
+				C20DD82E5C7D82B17680381F712E5A25 /* WBSDKCommentButton.h */,
+				39C1EBE140646ADEAB9F86E1135089E2 /* WBSDKRelationshipButton.h */,
+				FB0D2224FCEE2BB8AAC9C47F9A559452 /* WeiboSDK.h */,
+				FFF46642092E853EF67BCA488429A31D /* WeiboUser.h */,
+				DABE75D16B141D030FEB232EA20854B2 /* Frameworks */,
+				9768BA9729F91BC4F58B281078F49B4C /* Resources */,
+			);
+			path = WeiboSDK;
+			sourceTree = "<group>";
+		};
+		E48B03D2536E7D72C7F23D8BEF646CEA /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				3A573E3C50215EE6D076255EFEF0D93B /* SSKeychain.h */,
+				D5339C0A8023DA78A483A1DFEB5EF68B /* SSKeychain.m */,
+				55FF90CC6C771E38A010F3847C6549A0 /* SSKeychainQuery.h */,
+				A8244AB0E0D8E13DB84AE8F420CB1945 /* SSKeychainQuery.m */,
+				B81B33748D9897AF0C275D33D84E7DB8 /* Support Files */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C617CA68463FCDB481802CF0743AAF9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9D665977EB83478870CACE93AA141C /* SSKeychain.h in Headers */,
+				3A1A57D547677825BAB0A5ECC659588C /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E0A172F4C04AD2AA3AD129C05F8FF41F /* Pods-NewsLetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233D8C9DF990724F266F2F7289A06F76 /* Build configuration list for PBXNativeTarget "Pods-NewsLetter" */;
+			buildPhases = (
+				E4146BB2380C10925774F39DD5080D70 /* Sources */,
+				EAAED13B5365FED205095549615B067A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE516F711D6643A6BB8D0CC8FC291F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewsLetter";
+			productName = "Pods-NewsLetter";
+			productReference = 1525A974AA0993ECCE3401C5A8857C53 /* libPods-NewsLetter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA3931D121EE165685E6E6C251F033C0 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7F0AC2FB91E6CAB44E5342F6991C72 /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				0DED45C17113F02D24CE97201A7846CB /* Sources */,
+				55EA7C5ED7233A2F318D5626C16BADDD /* Frameworks */,
+				C617CA68463FCDB481802CF0743AAF9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = E4E704290C7C7574FC483CBF5927BEE3 /* libSSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0A172F4C04AD2AA3AD129C05F8FF41F /* Pods-NewsLetter */,
+				EA3931D121EE165685E6E6C251F033C0 /* SSKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DED45C17113F02D24CE97201A7846CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF85BB5F573E6066871F14A011F42E3B /* SSKeychain-dummy.m in Sources */,
+				C448ED2A47CCE08BC5116C230CAD58B9 /* SSKeychain.m in Sources */,
+				D0C276BE14E97B62E2ED80D2326BA96A /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4146BB2380C10925774F39DD5080D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C785DF235AABC38B07297194F05E3F /* Pods-NewsLetter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AE516F711D6643A6BB8D0CC8FC291F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = EA3931D121EE165685E6E6C251F033C0 /* SSKeychain */;
+			targetProxy = 681FCB7AAE1925755DC2C4822190D1D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51F14BE326491DBD73D8A727E1D8A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0472000B4F4B1A75ACB6B858B0002733 /* SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A39638D6E355A4C629B0B67C92F0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0472000B4F4B1A75ACB6B858B0002733 /* SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3A9FF760374517486C8C55EF85961E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094858B855A005F7FA30D4BF36C5EB67 /* Pods-NewsLetter.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FDDF452738E4EAD8CA90916D9438FF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C9BE185CBCFAEDAC376FA61BD660AA /* Pods-NewsLetter.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7F0AC2FB91E6CAB44E5342F6991C72 /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F14BE326491DBD73D8A727E1D8A8BE /* Debug */,
+				7A39638D6E355A4C629B0B67C92F0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233D8C9DF990724F266F2F7289A06F76 /* Build configuration list for PBXNativeTarget "Pods-NewsLetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A9FF760374517486C8C55EF85961E8 /* Debug */,
+				FDDF452738E4EAD8CA90916D9438FF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
